@@ -12,11 +12,11 @@ Set up your project board with these Status field values:
 
 | Column | Label Applied | Agent Mode | What Happens |
 |---|---|---|---|
-| Triage | *(none)* | — | New issues land here for human review |
+| Backlog | *(none)* | — | New issues land here for human review |
 | Clarify | `status:clarify` | clarify | Agent reads the issue, asks questions, proposes acceptance criteria |
 | Ready | `status:ready` | plan | Agent posts a detailed implementation plan |
-| In Progress | `status:in-progress` | implement | Agent executes the plan, runs tests, opens a PR |
-| In Review | `status:in-review` | review | Agent reviews the PR, approves or requests changes |
+| In progress | `status:in-progress` | implement | Agent executes the plan, runs tests, opens a PR |
+| In review | `status:in-review` | review | Agent reviews the PR, approves or requests changes |
 | Done | *(none)* | — | Human merges the PR and moves it here |
 
 ## Setting Up the Label Sync
